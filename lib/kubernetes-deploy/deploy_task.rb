@@ -47,6 +47,7 @@ module KubernetesDeploy
       Redis
       Memcached
       Bugsnag
+      Mail
       ConfigMap
       PersistentVolumeClaim
       ServiceAccount
