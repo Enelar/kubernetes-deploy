@@ -17,3 +17,4 @@ apiVersion: stable.shopify.io/v1
 kind: Mail
 metadata:
   name: mail-crd
+  
