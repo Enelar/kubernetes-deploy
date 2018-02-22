@@ -166,7 +166,7 @@ module KubernetesDeploy
       @logger.print_summary(success)
       status = success ? "success" : "failed"
       ::StatsD.measure('all_resources.duration', StatsD.duration(start), tags: statsd_tags << "status:#{status}")
-      success, err
+      [success, err]
     end
 
     def template_variables
